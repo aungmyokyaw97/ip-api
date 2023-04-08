@@ -1,0 +1,38 @@
+{
+    "name": "aungmyokyaw/ip-api",
+    "description": "IP-API for laravel package",
+    "keywords": ["laravel","IP-API","package","IP Geolocation"],
+    "authors": [
+        {
+            "name": "Aung Myo Kyaw",
+            "email": "aungmyokyaw28637@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amk\\IpApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amk\\IpApi\\Provider\\IPAPIServiceProvider"
+            ],
+            "aliases": {
+                "IPAPI" : "Amk\\IpApi\\Facades\\IPAPI"
+            }
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amk\\IpApi\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "orchestra/testbench": "^v7.0.0"
+    }
+}
