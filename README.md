@@ -8,7 +8,7 @@ The Laravel IP-API Package is a powerful and easy-to-use solution for integratin
 
 
 ```bash
-  composer require aungmyokyaw/ip-api
+composer require aungmyokyaw/ip-api
 ```
     
 ## Usage
@@ -86,3 +86,8 @@ Available response data for this geo package includes:
 ## Credits
 
 ## [ip-api.com](https://ip-api.com)
+
+
+### License
+
+This package is open source and released under the [MIT License](LICENSE). Please review the [LICENSE](LICENSE) file for detailed licensing terms and conditions.
