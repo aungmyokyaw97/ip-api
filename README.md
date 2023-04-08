@@ -23,21 +23,21 @@ composer require aungmyokyaw/ip-api
 Retrieving geolocation data for a requested IP address.
 
 ```
-  use IPAPI;
+use IPAPI;
 
 
-  $ipData = IPAPI::detect();
+$ipData = IPAPI::detect();
 ```
 
 Retrieving geolocation data for a custom IP address.
 
 ```
-  use IPAPI;
+use IPAPI;
 
 
-  $ipAddress = '192.168.1.1';
+$ipAddress = '192.168.1.1';
 
-  $ipData = IPAPI::detect($ipAddress);
+$ipData = IPAPI::detect($ipAddress);
 ```
 
 ## Request

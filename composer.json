@@ -3,6 +3,7 @@
     "description": "IP-API for laravel package",
     "keywords": ["laravel","IP-API","package","IP Geolocation"],
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Aung Myo Kyaw",
